@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+.header-wrapper{
+  position: relative;
+  height: 120px;
+  background: linear-gradient(to right, #667eea 0%, #764ba2 100%);
+
+}
+
+@media screen and (max-width:769px) {
+  .header-wrapper{
+    height: 110px;
+  }
+}
+
+@media screen and (max-width:426px) {
+  .header-wrapper{
+    height: 120px;
+  }
+}
