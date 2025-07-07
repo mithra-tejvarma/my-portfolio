@@ -1,0 +1,73 @@
+/* src/Skills.css */
+
+.skills-section {
+  background-color: #ffffff;
+  padding: 4rem 2rem;
+}
+
+.skills-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2.5rem;
+  border-radius: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.skills-intro {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.skill-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #007bff;
+}
+
+.skill-card ul {
+  list-style: none;
+  padding: 0;
+  color: #444;
+  line-height: 1.8;
+}
+
+.skill-card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  transform-style: preserve-3d;
+}
+
+/* Add hover effect using motion + CSS for float+skew */
+.skill-card:hover {
+  transform: scale(1.08) skewY(1.5deg) skewX(1.5deg);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+}

@@ -20,9 +20,6 @@ const Navbar = () => {
             else if (screenWidth > 425) {
                 stickyThreshold = 53;
             }
-            else{
-                 stickyThreshold = 53;
-            }
             if (scrollTop >= stickyThreshold) {
                 setIsSticky(true);
             } else {
